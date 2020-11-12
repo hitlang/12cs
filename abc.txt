@@ -4,10 +4,4 @@ fdsafds
 
 fds
 ¸ÊÂ¶£º¶¥¶¥¶¥¶¥¶¥¶¥¶¥¶¥¶¥xxx
-yyy<<<<<<< .mine
 yyy
-
-=======
-
-
->>>>>>> .theirs
