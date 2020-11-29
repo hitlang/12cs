@@ -5,10 +5,12 @@
 需求： 用户输入 2个整数，做加法，输出加法结果
 提示： int()
 '''
-x, y = input("请输入第一个整数"), input("请输入第2个整数")
+x , y = int(input("请输入加数")), int(input("请输入被加数"))
 
-x = int(x)
-y = int(y)
+print(x + y)
 
 
-print(x  + y )
+
+
+
+

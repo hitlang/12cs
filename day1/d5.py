@@ -3,10 +3,7 @@
 # @Author:liulang
 """
 注释： 这个我的第一个python程序
+
 """
-x = "hello" "world" # 这是一个单行注释
-
-print(x)
-
-print(__doc__)
+print(__doc__) #表示当前py文件中的，注释部分
 
