@@ -2,10 +2,14 @@
 #!/usr/bin/python3
 # @Author:liulang
 '''
-客户和服务
+a  程序员 写的
 '''
-def add(x , y):
+def add( x ,  y):
 
     return x + y
 
+class Student:
 
+    pass
+
+s = Student()
