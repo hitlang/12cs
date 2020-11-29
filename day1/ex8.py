@@ -10,10 +10,7 @@ test_data2 = [ 1 ,2.4 ,"abc", ["hello", "world"], 5 ,]
 
 #1
 x = test_data2[-2]
-
 print(x[-1]) # 读取
-
 x[-1] = ["a" , "b"] #修改
-
 print(test_data2)
 
