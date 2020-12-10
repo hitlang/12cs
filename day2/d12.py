@@ -2,10 +2,18 @@
 #!/usr/bin/python3
 # @Author:liulang
 
-t = (5, 1 , 2 , 3)
+# t = (5, 1 , 2 , 3)
+#
+# r = sorted(t) # 会返回一个新的列表，
+#
+#
+# print(r)
 
-r = sorted(t) # 会返回一个新的列表，
+test_data = [ 1 ,2 ,3, 0]
+
+test_data.sort()
+
+print(test_data)
 
 
-print(r)
 
