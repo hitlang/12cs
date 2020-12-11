@@ -8,12 +8,14 @@ from typing import Any
 import json
 
 
-class Person:
+class Person(object):
 
     city = "武汉" #类变量 ，所有对象，共有的属性
 
-    def __new__(cls, *args, **kwargs):
+    def __new__(cls, *args,**kwargs):
+        print(cls)
         print("----------创建一个白板对象")
+
         return super().__new__(cls)
 
     # 初始化 , 魔术方法，当我们创建一个对象的时候，由python，帮我们自动调用
