@@ -4,13 +4,9 @@
 '''
 类是对象的模板， 对象是类的实例。
 '''
-from typing import Any
-import json
-import random
 
 class Person:
     def __init__(self, firstname, lastname, age):  # 快捷键 ctr + o
-        print("----------------初始化对象-------------------")
         self.firstname = firstname
         self.lastname = lastname
         self.age = age
@@ -21,14 +17,10 @@ class Person:
 
     @name.setter
     def name(self, fullname):
-        self.firstname  , self.lastname= fullname
+        self.firstname, self.lastname = fullname
 
     def talk(self):
         print("{}正在说话".format(self.name))
-
-    # def info(self):
-    #     return "我的名字叫{}, 年纪是{}".format(self.name, self.age)
-
     '''
     1. print打印对象的时候。触发
     2. format对象的触发
@@ -36,9 +28,7 @@ class Person:
     4. 主动 o.__str__()
     '''
     def __hash__(self):
-
-        return  hash(self.name)
-
+        return hash(self.name)
 
     def __eq__(self, o) -> bool:
         return self.name == o.name
@@ -51,21 +41,9 @@ class Person:
 
 
 if __name__ == '__main__':
-
-
     s1 = set()
-
     for i in range(4):
         x = Person("张", "三", 19)
         s1.add(x)
-        pass
-
-
-
-
     print(s1)
-
-    pass
-
-
 
