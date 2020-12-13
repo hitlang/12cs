@@ -14,8 +14,8 @@ test_data = {
 
 }
 
-text = json.dumps(test_data) # 把python对象，转换为json文本
+text = json.dumps(test_data, indent=8) # 把python对象，转换为json文本
 
 
-print(text)
+print(type(text))
 

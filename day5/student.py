@@ -8,6 +8,7 @@
 from day5.person import Person
 
 
+
 class Student(Person):
 
     def __init__(self, name, age , xh):
@@ -19,6 +20,8 @@ class Student(Person):
         return "学生的名字叫{},学号{}".format(self.name, self.xh)
 
     # 使用一个名字相同的方法，覆盖超类的方法
+
+
     def talk(self , msg = "abc"):
         print("{}学生正在说话 {}".format(self.name, msg))
         pass
