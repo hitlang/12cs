@@ -15,9 +15,15 @@
 # f.close()
 
 #上下文管理器
+import pytest
 
-with open("test_data.txt", encoding="utf8") as f:
-    for line in f:
-        print(line)
+def  gen_test_data():
+
+        with open(r"G:\虫师\python\12_terms\12cs\day7\test_data.txt", encoding="utf8") as f:
+                r = f.readlines()
+
+        return r
+
+
 
 

@@ -7,7 +7,7 @@
 '''
 from auth import auth
 from day5.person import Person
-
+from exception import My_Exception
 
 
 class Student(Person):
@@ -24,13 +24,18 @@ class Student(Person):
 
     @auth
     def talk(self, msg="abc"):
+
         print("{}学生正在说话 {}".format(self.name, msg))
         pass
 
 
 if __name__ == '__main__':
     s1 = Student(name="admin", age=10, xh="10001")
-    s1.talk()
+
+    s1.talk(msg="ab")
+
+
+
     print(s1)
 
     pass
