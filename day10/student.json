@@ -1,0 +1,140 @@
+{
+  "RECORDS": [
+    {
+      "studentNo": 1,
+      "studentName": "陈超",
+      "phone": "1212312",
+      "address": "bj",
+      "bornDate": "2020\/9\/8",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 2,
+      "studentName": "陈超3",
+      "phone": "1235555",
+      "address": "武汉",
+      "bornDate": "2020\/11\/6",
+      "gradeId": 3
+    },
+    {
+      "studentNo": 3,
+      "studentName": "杨行",
+      "phone": "1111",
+      "address": "武汉",
+      "bornDate": "2018\/2\/22",
+      "gradeId": 2
+    },
+    {
+      "studentNo": 4,
+      "studentName": "王志豪",
+      "phone": "12222",
+      "address": "武汉",
+      "bornDate": "2020\/11\/2",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 5,
+      "studentName": "丁涛",
+      "phone": "111",
+      "address": "武汉",
+      "bornDate": "2020\/11\/20",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 9,
+      "studentName": "陈超1",
+      "phone": "1212311",
+      "address": "武汉",
+      "bornDate": "2020\/9\/27",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 10,
+      "studentName": "陈超2",
+      "phone": null,
+      "address": "北京",
+      "bornDate": null,
+      "gradeId": null
+    },
+    {
+      "studentNo": 11,
+      "studentName": "黄阅",
+      "phone": "33333",
+      "address": "成都",
+      "bornDate": "2010\/1\/11",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 12,
+      "studentName": "王盼",
+      "phone": "123",
+      "address": "武汉",
+      "bornDate": "2020\/9\/8",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 13,
+      "studentName": "王盼",
+      "phone": "1231111",
+      "address": "武汉",
+      "bornDate": "2020\/9\/8",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 14,
+      "studentName": "王盼1",
+      "phone": "1234",
+      "address": "武汉",
+      "bornDate": "2020\/9\/8",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 15,
+      "studentName": "王盼2",
+      "phone": "1235",
+      "address": "武汉",
+      "bornDate": "2020\/9\/8",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 1,
+      "studentName": "陈超99",
+      "phone": "121",
+      "address": "bj",
+      "bornDate": "2020\/9\/8",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 1,
+      "studentName": "陈超99",
+      "phone": "12",
+      "address": "bj",
+      "bornDate": "2020\/9\/8",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 111,
+      "studentName": "陈超99",
+      "phone": "111676",
+      "address": "武汉",
+      "bornDate": "2020\/9\/8",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 122,
+      "studentName": "陈超99",
+      "phone": "111898078",
+      "address": "武汉",
+      "bornDate": "2020\/9\/8",
+      "gradeId": 1
+    },
+    {
+      "studentNo": 12,
+      "studentName": "efg",
+      "phone": null,
+      "address": null,
+      "bornDate": "2020\/1\/1",
+      "gradeId": null
+    }
+  ]
+}
