@@ -3,6 +3,7 @@
 # @Author:liulang
 import json
 
+from day10.ex2 import MysqlHelp
 from student import Student
 
 '''
@@ -22,6 +23,17 @@ test_data = r['RECORDS']
 for s in test_data:
 
     x = Student( name = s['studentName'], age = None, xh = s['studentNo'])
-    print(x)
-    pass
+
+    tableName = "student"
+
+    field_name = ("studentNo", "studentName")
+
+    values = (x.xh, x.name)
+
+    MysqlHelp.insert(table_name=tableName, field_name=field_name, field_value=values)
+
+MysqlHelp.close()
+
+
+
 
